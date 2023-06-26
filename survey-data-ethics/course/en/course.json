@@ -1,0 +1,541 @@
+{
+  "title": "Data ethics website quiz",
+  "displayTitle": "Data ethics website quiz",
+  "body": "",
+  "subtitle": "",
+  "description": "",
+  "instruction": "",
+  "_htmlClasses": "",
+  "_latestTrackingId": 10,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_requireCompletionOf": -1,
+  "_lockType": "",
+  "_id": "course",
+  "_globals": {
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources and search",
+        "close": "Close",
+        "closeDrawer": "Close Drawer",
+        "closeResources": "Close resources",
+        "drawer": "Side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_extensions": {
+      "_aboutPage": {
+        "linkText": "About",
+        "titleText": "About",
+        "contactEMail": "training@theodi.org",
+        "contactLinkText": "Contact",
+        "aboutCredit": "",
+        "SL_text": "",
+        "SL_facebook": "",
+        "SL_flickr": "",
+        "SL_github": "",
+        "SL_scribd": "",
+        "SL_soundcloud": "",
+        "SL_twitter": "",
+        "SL_vimeo": "",
+        "SL_youtube": ""
+      },
+      "_ODILicence": {
+        "linkText": "Licence",
+        "titleText": "Licence"
+      },
+      "_tutor": {
+        "hideFeedback": "Hide feedback"
+      },
+      "_xapi": {
+        "confirm": "OK",
+        "lrsConnectionErrorTitle": "LRS not available",
+        "lrsConnectionErrorMessage": "We were unable to connect to your Learning Record Store (LRS). This means that your progress cannot be recorded."
+      },
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content",
+        "_navOrder": 0
+      }
+    },
+    "_components": {
+      "_expose": {
+        "ariaRegion": ""
+      },
+      "_tabs": {
+        "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+      },
+      "_list": {
+        "ariaRegion": ""
+      },
+      "_jsonschema": {
+        "ariaRegion": "This question requires you to input your answer in the codebox provided. When you have done so, select the submit button below."
+      },
+      "_fileinput": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_downloadButton": {
+        "ariaRegion": ""
+      },
+      "_stacklist": {
+        "ariaRegion": "This stacklist component presents a list of items. Select the button to access each item in turn.",
+        "ariaButtonLabel": "Select this button to access the next item in the stacklist."
+      },
+      "_lottieInteractivity": {
+        "ariaRegion": ""
+      },
+      "_chartjs": {
+        "ariaRegion": "This is a charting component."
+      },
+      "_choose": {
+        "ariaRegion": "Choose. Select options and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      },
+      "_dragndrop": {
+        "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      },
+      "_lens": {
+        "ariaRegion": ""
+      },
+      "_imgMagnify": {
+        "ariaRegion": ""
+      },
+      "_cards": {
+        "ariaRegion": "Cards. Select open button to expand the content."
+      },
+      "_sliderItems": {
+        "ariaRegion": "This component is an slider items."
+      },
+      "_flex": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_flowItems": {
+        "ariaRegion": "This component is an flow items."
+      },
+      "_threeGLTF": {
+        "ariaRegion": ""
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_media": {
+        "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+        "skipToTranscript": "Skip to transcript",
+        "playText": "Play",
+        "pauseText": "Pause",
+        "stopText": "Stop",
+        "audioPlayerText": "Audio Player",
+        "videoPlayerText": "Video Player",
+        "tracksText": "Captions/Subtitles",
+        "timeSliderText": "Time Slider",
+        "muteText": "Mute Toggle",
+        "unmuteStatusText": "Unmute",
+        "muteStatusText": "Mute",
+        "volumeSliderText": "Volume Slider",
+        "fullscreenText": "Fullscreen",
+        "goFullscreenText": "Go Fullscreen",
+        "turnOffFullscreenText": "Turn off Fullscreen",
+        "noneText": "None",
+        "skipBackText": "Skip back %1 seconds",
+        "allyVolumeControlText": "Use Up/Down Arrow keys to increase or decrease volume.",
+        "progessHelpText": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."
+      },
+      "_narrative": {
+        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.",
+        "previous": "{{#if title}}Back to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
+      },
+      "_accordion": {
+        "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+      },
+      "_graphic": {
+        "ariaRegion": "",
+        "scrollAriaLabel": "Use the scrollbar to pan the image left and right. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}"
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results.",
+        "retryText": "Retry"
+      },
+      "_mcq": {
+        "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_gmcq": {
+        "ariaRegion": "This is a graphical multiple choice question. Once you have selected an option, select the submit button below.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+        "item": "Item {{{itemNumber}}} of {{{totalItems}}}",
+        "previous": "{{#if title}}Back to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      },
+      "_moral-machine-gmcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_moralMachineResults": {
+        "ariaRegion": "Assessment results."
+      },
+      "_verticalItems": {
+        "ariaRegion": "This component is an vertical items."
+      },
+      "_dragndropwithimage": {
+        "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      },
+      "_csvGrader": {
+        "ariaRegion": "This question requires you to input your answer in the codebox provided. When you have done so, select the submit button below."
+      },
+      "_ppq": {
+        "ariaRegion": "A question component that requires users to correctly position one or more pins on an image."
+      },
+      "_hotspots": {
+        "ariaRegion": "This component is a hotspot."
+      },
+      "_thoughts": {
+        "ariaRegion": "This question requires you to input your answer in the textbox provided. When you have done so, select the submit button below."
+      },
+      "_dragToPosition": {
+        "ariaRegion": "DragToPosition",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      },
+      "_matchingGraphic": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      }
+    },
+    "_menu": {
+      "_boxMenu": {
+        "durationLabel": "Duration:"
+      }
+    }
+  },
+  "_start": {
+    "_isEnabled": true,
+    "_startIds": [
+      {
+        "_id": "6492ba04b38aaf6b93dda4fa",
+        "_skipIfComplete": false,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": true
+  },
+  "_type": "course",
+  "themeVariables": {
+    "_global": {
+      "max-width": "1200px",
+      "device-width-small": "520px",
+      "device-width-medium": "900px",
+      "device-width-large": "1024px",
+      "title-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "body-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "btn-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "font-color": "#4d4d4d",
+      "font-color-inverted": "#ffffff",
+      "link": "",
+      "link-inverted": "",
+      "link-hover": "",
+      "link-inverted-hover": ""
+    },
+    "_themeLogo": {
+      "theme-logo-top-padding": "0rem",
+      "theme-logo-width": "75%"
+    },
+    "_colors": {
+      "color-one": "#00b6ff",
+      "color-one-inverted": "#ffffff",
+      "color-two": "#f9bc26",
+      "color-two-inverted": "#ffffff",
+      "color-three": "#ef6000",
+      "color-three-inverted": "#ffffff",
+      "color-four": "#0dbc37",
+      "color-four-inverted": "#ffffff",
+      "color-five": "#722ea5",
+      "color-five-inverted": "#ffffff",
+      "color-six": "#2d5da9",
+      "color-six-inverted": "#ffffff",
+      "color-seven": "#d60303",
+      "color-seven-inverted": "#ffffff",
+      "color-eight": "#ef3aab",
+      "color-eight-inverted": "#ffffff",
+      "color-nine": "#e6007c",
+      "color-nine-inverted": "#ffffff",
+      "color-ten": "#1dd3a7",
+      "color-ten-inverted": "#ffffff"
+    },
+    "_items": {
+      "item-color": "#9096a0",
+      "item-color-inverted": "#ffffff",
+      "item-color-hover": "",
+      "item-color-inverted-hover": "",
+      "item-color-selected": "",
+      "item-color-inverted-selected": "",
+      "visited": "#333333",
+      "visited-inverted": "#ffffff"
+    },
+    "_buttons": {
+      "btn-color": "#333333",
+      "btn-color-inverted": "#ffffff",
+      "btn-color-hover": "",
+      "btn-color-inverted-hover": "",
+      "disabled": "#dddddd",
+      "disabled-inverted": "#000000"
+    },
+    "_validation": {
+      "validation-success": "#0dbc37",
+      "validation-success-inverted": "#ffffff",
+      "validation-error": "#d60303",
+      "validation-error-inverted": "#ffffff"
+    },
+    "_progress": {
+      "progress": "#333333",
+      "progress-inverted": "#ffffff",
+      "progress-border": "#333333"
+    },
+    "_menu": {
+      "menu-item": "#00b6ff",
+      "menu-item-inverted": "#ffffff",
+      "menu-item-border-color": "#00b6ff",
+      "menu-item-progress": "#00b6ff",
+      "menu-item-progress-inverted": "#ffffff",
+      "menu-item-progress-border": "#ffffff",
+      "menu-item-btn-color": "#ffffff",
+      "menu-item-btn-color-inverted": "#00b6ff",
+      "menu-item-btn-color-hover": "#333333",
+      "menu-item-btn-color-inverted-hover": "#ffffff"
+    },
+    "_nav": {
+      "nav": "#333333",
+      "nav-inverted": "#ffffff",
+      "hide-nav": true,
+      "nav-icon": "#ffffff",
+      "nav-icon-inverted": "#ffffff",
+      "nav-icon-hover": "#ffffff",
+      "nav-icon-inverted-hover": "#ffffff",
+      "navigation-logo": "",
+      "nav-logo-height": "60px",
+      "nav-logo-height-mobile": "50px",
+      "nav-logo-padding-top": "5px",
+      "nav-logo-padding-top-mobile": "3px",
+      "nav-logo-padding-left": "5px",
+      "nav-logo-padding-left-mobile": "3px",
+      "nav-progress": "",
+      "nav-progress-inverted": "",
+      "nav-progress-border": "",
+      "nav-progress-hover": "",
+      "nav-progress-inverted-hover": "",
+      "nav-progress-border-hover": ""
+    },
+    "_footer": {
+      "footer": "#000000",
+      "footer-inverted": "#ffffff",
+      "footer-logo": "course/assets/b46255d149de4ce358f32a2812df4c9b0658f1a8.png"
+    },
+    "_notify": {
+      "notify": "#333333",
+      "notify-inverted": "#ffffff",
+      "notify-link": "",
+      "notify-link-hover": "",
+      "notify-btn": "",
+      "notify-btn-inverted": "",
+      "notify-btn-hover": "",
+      "notify-btn-inverted-hover": "",
+      "notify-icon": "",
+      "notify-icon-inverted": "",
+      "notify-icon-hover": "",
+      "notify-icon-inverted-hover": ""
+    },
+    "_drawer": {
+      "drawer": "#333333",
+      "drawer-inverted": "#ffffff",
+      "drawer-link": "",
+      "drawer-link-hover": "",
+      "drawer-icon": "",
+      "drawer-icon-inverted": "",
+      "drawer-icon-hover": "",
+      "drawer-icon-inverted-hover": "",
+      "drawer-item": "",
+      "drawer-item-inverted": "",
+      "drawer-item-hover": "",
+      "drawer-item-inverted-hover": "",
+      "drawer-item-selected": "",
+      "drawer-item-inverted-selected": "",
+      "drawer-progress": "",
+      "drawer-progress-inverted": "",
+      "drawer-progress-border": "",
+      "drawer-progress-hover": "",
+      "drawer-progress-inverted-hover": "",
+      "drawer-progress-border-hover": ""
+    },
+    "_misc": {
+      "background": "#333333",
+      "background-inverted": "#ffffff",
+      "shadow": "#333333",
+      "shadow-inverted": "#ffffff"
+    }
+  },
+  "_aboutPage": {
+    "_items": [
+      {
+        "title": "",
+        "description": "<p>By taking the quiz, your responses will be stored in our learning database for your benefit. Each response is linked to a unique ID, which is automatically generated the first time you visit any supported content on our domain \"learndata.info\". This unique ID allows you to conveniently resume your learning experience, similar to any Learning Management System (LMS), without the hassle of creating an account.</p><p>To facilitate this seamless experience, the unique ID is stored in a cookie on your browser. It's important to note that if you switch to a different browser, use private browsing mode, or clear your cookies, your progress may not be saved, and you won't be able to resume from where you left off.</p><p>We analyse the interaction data from our learning experiences to assess their effectiveness. Our primary focus is on understanding how people engage with the content, rather than personally identifying individuals. We are more interested in the insights provided by the interaction data rather than specific user identities.</p><p>Rest assured that our intention is to enhance your learning journey and improve our learning experiences based on the aggregated information we gather. Your privacy and learning progress are important to us, and we strive to make your learning experience as smooth and efficient as possible.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  },
+  "_ODILicence": {
+    "_items": [
+      {
+        "title": "",
+        "description": "<p>\"The Data Ethics Quiz\" by \"The Open Data Institute\" is protected by copyright. All rights are reserved.</p><p>This means that \"The Data Ethics Quiz\" and all associated content, including but not limited to text, images, graphics, and interactive elements, are owned by \"The Open Data Institute\" and are subject to copyright laws and regulations.</p><p>Without explicit written permission from \"The Open Data Institute,\" you are not authorized to:</p><ol><li>Copy or reproduce \"The Data Ethics Quiz\" in whole or in part.</li><li>Modify, alter, or create derivative works based on \"The Data Ethics Quiz.\"</li><li>Distribute, publish, or share \"The Data Ethics Quiz\" with others.</li><li>Use \"The Data Ethics Quiz\" for commercial purposes or financial gain.</li><li>Remove or modify any copyright notices or proprietary information present in \"The Data Ethics Quiz.\"</li></ol><p>\"The Open Data Institute\" retains all intellectual property rights, including but not limited to copyright, trademark, and any other rights pertaining to \"The Data Ethics Quiz.\"</p><p>For inquiries or requests regarding the use of \"The Data Ethics Quiz,\" please contact \"The Open Data Institute\" for further information and permissions.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  },
+  "_tutor": {
+    "_type": "notify",
+    "_classes": "",
+    "_hasNotifyBottomButton": false,
+    "_button": {
+      "text": "{{_globals._extensions._tutor.hideFeedback}}",
+      "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+    }
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 60,
+    "_correctToPass": 60
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "block",
+    "_showPrompt": false,
+    "title": "Resume...",
+    "body": "Would you like to resume from your last recorded position?",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
+  },
+  "_boxMenu": {
+    "_backgroundImage": {
+      "_large": "",
+      "_medium": "",
+      "_small": ""
+    },
+    "_backgroundStyles": {
+      "_backgroundRepeat": null,
+      "_backgroundSize": null,
+      "_backgroundPosition": null
+    },
+    "_menuHeader": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      }
+    }
+  }
+}
