@@ -56,7 +56,7 @@
     "_completionAttribute": "_isComplete"
   },
   "_devtools": {
-    "_isEnabled": false
+    "_isEnabled": true
   },
   "_xapi": {
     "_isEnabled": true,

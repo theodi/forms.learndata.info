@@ -115,6 +115,10 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_assessment": {
       "_isEnabled": false,
       "_id": "",
@@ -145,10 +149,10 @@
       }
     },
     "_trickle": {
-      "_isEnabled": false,
-      "_autoScroll": false,
+      "_isEnabled": true,
+      "_autoScroll": true,
       "_scrollDuration": 500,
-      "_onChildren": false,
+      "_onChildren": true,
       "_scrollTo": "@block +1",
       "_completionAttribute": "_isComplete",
       "_button": {
@@ -173,10 +177,6 @@
         "_isCompletionRequired": true,
         "_isLockedOnRevisit": false
       }
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
     },
     "_odi-theme": {
       "_backgroundImage": {
