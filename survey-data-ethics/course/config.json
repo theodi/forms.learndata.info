@@ -62,7 +62,7 @@
     "_isEnabled": true,
     "_specification": "xAPI",
     "_activityID": "https://forms.learndata.info/survey-data-ethics",
-    "_cookiePrefix": "info.learndata.",
+    "_cookiePrefix": "info.learndata",
     "_endpoint": "https://theodi.learninglocker.net/data/xAPI",
     "_user": "dd4b761722e588081a2c1fbc18b485c7d814204b",
     "_password": "745ca104e6e088818c4da65f2464a560175cf4e0",
