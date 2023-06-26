@@ -27,7 +27,7 @@
     "title": "How did you find this quiz?",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "fixed-height",
     "_trackingId": 2,
     "instruction": "",
     "_isOptional": false,
@@ -39,6 +39,15 @@
     "_id": "6492ba0db38aaf6b93dda506",
     "_parentId": "6492ba06b38aaf6b93dda4fc",
     "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
     "_assessment": {
       "_quizBankID": 1
     },
@@ -46,14 +55,16 @@
       "_isEnabled": true,
       "_isInherited": false,
       "_autoScroll": true,
-      "_onChildren": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_completionAttribute": "_isComplete",
       "_button": {
         "_isEnabled": true,
-        "_comment": "_autoHide = it is recommended this be left set to false in courses that need to be screenreader-compatible.",
         "_styleBeforeCompletion": "hidden",
         "_styleAfterClick": "hidden",
         "_isFullWidth": true,
         "_autoHide": false,
+        "_showEndOfPage": true,
         "_className": "",
         "_hasIcon": false,
         "text": "See how you scored",
@@ -62,8 +73,7 @@
         "startAriaLabel": "",
         "finalText": "Finish",
         "finalAriaLabel": "",
-        "_component": "trickle-button",
-        "_showEndOfPage": true
+        "_component": "trickle-button"
       },
       "_stepLocking": {
         "_isEnabled": true,
@@ -71,9 +81,23 @@
         "_isLockedOnRevisit": false
       }
     },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+    "_odi-theme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_isDividerBlock": false
     }
   },
   {
