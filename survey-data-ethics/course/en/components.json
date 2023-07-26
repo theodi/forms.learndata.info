@@ -996,7 +996,7 @@
       "feedback": "",
       "_routeToAssessment": false
     },
-    "_completionBody": "<p>{{{feedback}}}</p>",
+    "_completionBody": "<p>{{{feedback}}}</p><p>Learn more about <a href=\"https://learning.theodi.org/courses/introduction-to-data-ethics\" target=\"_blank\">Data Ethics</a></p>",
     "_bands": [
       {
         "_score": 0,
